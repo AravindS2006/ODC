@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://odc-omega-eight.vercel.app/sitemap.xml

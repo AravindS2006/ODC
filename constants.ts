@@ -7,119 +7,109 @@ export const HERO_IMAGE = "https://picsum.photos/seed/western-ghats-fog/1920/108
 export const LANDMARKS: Landmark[] = [
   {
     id: 'gandhi-market',
-    name: 'Gandhi Vegetable Market',
+    name: 'Gandhi Vegetable Market Oddanchatram',
     category: 'Commerce',
-    description: 'One of the largest vegetable markets in Tamil Nadu.',
+    description: 'One of the largest vegetable markets in Tamil Nadu and South India.',
     imageUrl: 'https://picsum.photos/seed/market-vegetables/800/600',
-    details: 'The economic engine of the town. It supplies vegetables to Kerala, Mumbai, and exports Drumsticks (Moringa) and Gloriosa Superba seeds globally. It operates 24/7 with an annual turnover in crores.'
+    details: 'The primary economic driver of Oddanchatram. This market is a global export hub for Moringa (Drumsticks) and medicinal Gloriosa Superba seeds. It operates 24 hours a day, serving Kerala and various states across India.'
   },
   {
     id: 'scudder-hospital',
-    name: 'Scudder Memorial Hospital',
+    name: 'Scudder Memorial Hospital ODC',
     category: 'Health',
-    description: 'A historic medical institution founded in 1955.',
+    description: 'Historic healthcare institution serving the Dindigul district since 1955.',
     imageUrl: 'https://picsum.photos/seed/hospital-building/800/600',
-    details: 'Founded by Dr. Galen F. Scudder, this hospital is a landmark in healthcare for the Dindigul district, serving thousands of rural patients with advanced medical facilities.'
+    details: 'Established by Dr. Galen F. Scudder, this hospital provides essential medical care to over 50 surrounding villages. It is a landmark of charitable medical service in Tamil Nadu.'
   },
   {
     id: 'parappalaru-dam',
-    name: 'Parappalaru Dam',
+    name: 'Parappalaru Dam & Waterfalls',
     category: 'Nature',
-    description: 'Scenic reservoir and waterfall source.',
+    description: 'A serene reservoir located in the foothills of the Western Ghats.',
     imageUrl: 'https://picsum.photos/seed/waterfall-dam/800/600',
-    details: 'Located in the Pachamalai hills nearby, it stores water for irrigation and Oddanchatram\'s drinking needs. The overflow creates a spectacular waterfall during monsoons.'
+    details: 'A vital source of irrigation and drinking water for the region. The dam is a popular local tourist attraction, especially during the monsoon season when the waterfall is in full flow.'
   },
   {
     id: 'kashi-viswanathar',
     name: 'Kashi Viswanathar Temple',
     category: 'Spirituality',
-    description: 'The spiritual anchor of the town.',
+    description: 'Ancient Shiva temple, a spiritual center of the town.',
     imageUrl: 'https://picsum.photos/seed/hindu-temple/800/600',
-    details: 'An ancient temple dedicated to Lord Shiva. The town also hosts the famous Arulmigu Kuzhanthai Velappar Temple in nearby Poombarai.'
+    details: 'Dedicated to Lord Shiva, this temple represents the rich cultural and spiritual heritage of the Kongu Nadu region surrounding Oddanchatram.'
   },
 ];
 
 export const DETAILED_INFO: DetailedSection[] = [
   {
     id: 'economy',
-    title: 'Agri-Economy',
+    title: 'Agri-Business & Economy',
     icon: Leaf,
-    content: "Oddanchatram is synonymous with agriculture. Beyond the Gandhi Market, the region is the world's largest exporter of 'Gloriosa Superba' (Glory Lily) seeds, used in the pharmaceutical industry for Colchicine extraction. The town is also a major hub for cattle farms and produces significant volumes of curd and dairy products.",
-    stats: ['#1 Exporter of Glory Lily', '100+ Commission Mandis', 'Major Curd Supplier']
+    content: "Oddanchatram's economy is powered by agricultural exports. It is the world's leading exporter of 'Gloriosa Superba' (Glory Lily) seeds, vital for the pharmaceutical industry. The town also handles massive volumes of vegetables like tomatoes, drumsticks, and shallots daily.",
+    stats: ['World Leader in Glory Lily', '₹200Cr+ Annual Turnover', 'Export to 10+ Countries']
   },
   {
     id: 'transport',
-    title: 'Transport Hub',
+    title: 'Transport & Connectivity',
     icon: Truck,
-    content: "Strategically located at the intersection of NH-83 (Coimbatore to Nagapattinam) and SH-134. It acts as the primary gateway for all traffic heading to the hill stations of Kodaikanal and Palani from the north. The Oddanchatram Railway Station falls on the Pollachi-Dindigul line.",
-    stats: ['NH-83 Highway', 'Rail Connectivity', 'Gateway to Ooty/Kodai']
+    content: "Located on NH-83, Oddanchatram is the strategic gateway to the Palani Hills and Kodaikanal. It has excellent bus and rail connectivity, making it a major transit point for travelers moving between Coimbatore, Dindigul, and the hill stations.",
+    stats: ['NH-83 Highway Hub', 'Dindigul-Pollachi Rail Line', '100+ Bus Services Daily']
   },
   {
     id: 'health',
-    title: 'Healthcare',
+    title: 'Medical Tourism & Care',
     icon: Stethoscope,
-    content: "The town is a medical hub for the surrounding 50+ villages. The Scudder Memorial Hospital is a cornerstone of this, established by American missionaries. It has evolved into a multi-specialty center, supported by numerous private clinics and government health centers.",
-    stats: ['Scudder Memorial Est. 1955', 'Trauma Care Center', 'Rural Health Hub']
+    content: "With the Scudder Memorial Hospital as its cornerstone, Oddanchatram has grown into a regional medical hub. It offers advanced surgical facilities and rural health initiatives that draw patients from across the Dindigul and Tirupur districts.",
+    stats: ['Founded by Dr. Scudder', 'Multi-Specialty Care', 'Rural Outreach Centers']
   },
   {
     id: 'education',
-    title: 'Education',
+    title: 'Education & Literacy',
     icon: GraduationCap,
-    content: "Oddanchatram boasts a high literacy rate with institutions like the Christian College of Engineering & Technology (CCET) and Sakthi College of Nursing. Several matriculation and government schools serve the growing population.",
-    stats: ['Engineering College', 'Nursing Institutes', 'High Literacy Rate']
+    content: "Home to the Christian College of Engineering & Technology (CCET), the town is an educational beacon for rural youth. The high literacy rate is supported by numerous public and private schools offering quality education in Tamil and English.",
+    stats: ['Engineering Excellence', 'Nursing Colleges', '90%+ Literacy Rate']
   }
 ];
 
 export const HISTORY: TimelineEvent[] = [
   {
     year: 'Ancient Era',
-    title: 'Kongu Nadu Frontier',
-    description: 'Served as a trade route connecting the ancient Kongu region with the Pandya kingdom in Madurai.'
+    title: 'Historical Trade Route',
+    description: 'Oddanchatram served as a vital frontier between the Kongu Nadu and Pandya kingdoms, facilitating spice and grain trade.'
   },
   {
     year: '1955',
-    title: 'Healthcare Revolution',
-    description: 'Establishment of Scudder Memorial Hospital by Dr. Galen F. Scudder, transforming rural health.'
+    title: 'Modern Healthcare Begins',
+    description: 'The inauguration of Scudder Memorial Hospital transformed the medical landscape of the Dindigul district.'
   },
   {
     year: '1976',
-    title: 'The Market Era',
-    description: 'Formal organization of the Vegetable Market, which would grow to supply the entirety of Kerala and Tamil Nadu.'
+    title: 'Market Formalization',
+    description: 'The Gandhi Vegetable Market was officially organized, leading to Oddanchatram becoming the "Vegetable City" of India.'
   },
   {
     year: '2010s',
-    title: 'Global Pharma Hub',
-    description: 'Explosion in cultivation of Gloriosa Superba (Kanvali Kilangu), putting Oddanchatram on the global pharmaceutical map.'
+    title: 'Pharma Export Boom',
+    description: 'Recognition as a global leader in the cultivation and export of Gloriosa Superba medicinal seeds.'
   }
 ];
 
 export const STATS: Stat[] = [
-  { label: 'Market Volume', value: '1000+', subtext: 'Tons Daily' },
-  { label: 'Elevation', value: '300m', subtext: 'Foothills of Ghats' },
-  { label: 'Key Crop', value: 'Gloriosa', subtext: 'Medicinal Export' },
+  { label: 'Market Volume', value: '1,500 Tons', subtext: 'Peak Daily Trade' },
+  { label: 'Elevation', value: '300m', subtext: 'Palani Hill Foothills' },
+  { label: 'Key Export', value: 'Medicinal Seeds', subtext: 'Global Hub' },
 ];
 
-export const SYSTEM_INSTRUCTION = `You are an expert, super-detailed local guide for Oddanchatram (ODC), Dindigul District, Tamil Nadu.
-You have access to Google Search to find current prices, weather, and news.
+export const SYSTEM_INSTRUCTION = `You are the Official Digital Guide for Oddanchatram (ODC), Dindigul District, Tamil Nadu.
+You provide real-time information with a focus on agriculture, tourism, and history.
 
 CORE KNOWLEDGE BASE:
-1.  **Agriculture:** 
-    *   Famous for **Gandhi Vegetable Market** (one of Asia's largest).
-    *   **Gloriosa Superba (Glory Lily/Kanvali Kilangu):** ODC is a world hub for this medicinal seed containing Colchicine.
-    *   **Drumsticks (Moringa):** Massive export to Europe/Middle East.
-    *   **Dairy:** Famous for thick curd and butter beans.
-
-2.  **Infrastructure:**
-    *   **Scudder Memorial Hospital:** A historic mission hospital founded in 1955.
-    *   **Transport:** Gateway to Kodaikanal via NH-83. Railway station on Dindigul-Pollachi line.
-    *   **Education:** Christian College of Engineering & Technology.
-
-3.  **Geography:**
-    *   Located at the foothills of the Western Ghats (Palani Hills).
-    *   Water source: Parappalaru Dam.
+1.  **Vegetable Hub:** Gandhi Vegetable Market is the town's pride. 
+2.  **Specialty Crops:** Gloriosa Superba (medicinal lily) and Moringa (drumsticks).
+3.  **Landmarks:** Scudder Hospital (historic), Parappalaru Dam (scenic), NH-83 (transport).
+4.  **Local Pride:** Mention the town's contribution to the pharmaceutical and food supply chain of South India.
 
 BEHAVIOR:
-*   If asked about prices (tomato, drumstick), USE THE SEARCH TOOL to find today's market rates if possible.
-*   Be proud of the town's "Vegetable City" status.
-*   Mention the "Gateway to Kodaikanal" aspect for travelers.
+*   Always use Google Search to fetch "Oddanchatram vegetable prices today" or "Current weather in Oddanchatram" when asked.
+*   Be polite, helpful, and informative.
+*   Link to external sources when providing market data.
 `;
