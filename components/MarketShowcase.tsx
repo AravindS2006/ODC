@@ -14,15 +14,15 @@ export const MarketShowcase: React.FC = () => {
           
           <article className="space-y-8">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-900/30 border border-green-500/20 text-green-400 text-xs uppercase tracking-wider">
-              <TrendingUp size={14} /> Economic Powerhouse
+              <TrendingUp size={14} /> Economic Powerhouse of Dindigul
             </div>
             
             <h2 id="market-title" className="font-serif text-4xl md:text-5xl text-white leading-tight">
-              Gandhi Vegetable Market, Oddanchatram
+              Gandhi Vegetable Market: Asia's Massive Auction Hub
             </h2>
             
             <p className="text-gray-400 leading-relaxed text-lg">
-              The pulse of Oddanchatram beats within the <strong>Gandhi Market</strong>. Operating round the clock, it is one of Asia's largest vegetable auctions. While famous for <strong>Drumsticks (Moringa)</strong>, the region is also the world's leading exporter of <strong>Gloriosa Superba</strong> seeds to the global pharmaceutical industry.
+              The pulse of <strong>Oddanchatram</strong> beats within the <strong>Gandhi Market</strong>. Operating round the clock, it is one of the largest vegetable markets in Tamil Nadu, supplying fresh produce across the state and to neighboring Kerala. Famous for <strong>Drumsticks (Moringa)</strong>, the region is also the primary global exporter of <strong>Gloriosa Superba</strong> medicinal seeds.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6">
@@ -38,15 +38,15 @@ export const MarketShowcase: React.FC = () => {
             <div className="flex flex-wrap gap-6 text-gray-400 pt-4">
               <div className="flex items-center gap-2">
                 <Clock className="text-odc-gold" size={20} />
-                <span className="text-sm">24/7 Operations</span>
+                <span className="text-sm">24/7 Vegetable Market</span>
               </div>
               <div className="flex items-center gap-2">
                 <Truck className="text-odc-gold" size={20} />
-                <span className="text-sm">Global Export (Europe/UAE)</span>
+                <span className="text-sm">Export to UAE & Europe</span>
               </div>
               <div className="flex items-center gap-2">
                 <Sprout className="text-odc-gold" size={20} />
-                <span className="text-sm">Medicinal Crops</span>
+                <span className="text-sm">Medicinal Seed Hub</span>
               </div>
             </div>
           </article>
@@ -56,8 +56,9 @@ export const MarketShowcase: React.FC = () => {
                <div className="relative group overflow-hidden rounded-2xl translate-y-12">
                  <img 
                   src="https://picsum.photos/seed/market-vegetables/400/500" 
-                  alt="Fresh local produce at Oddanchatram Market" 
+                  alt="Fresh Moringa Drumsticks and vegetables at Oddanchatram Market" 
                   className="object-cover h-64 w-full shadow-2xl shadow-green-900/20 transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white font-bold">Vegetables</div>
                </div>
@@ -65,8 +66,9 @@ export const MarketShowcase: React.FC = () => {
               <div className="relative group overflow-hidden rounded-2xl">
                 <img 
                   src="https://picsum.photos/seed/market-trucks/400/500" 
-                  alt="Logistics and transport at Oddanchatram vegetable market" 
+                  alt="Logistics hub and trucks transport at Oddanchatram market" 
                   className="object-cover h-64 w-full shadow-2xl shadow-green-900/20 transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white font-bold">Logistics</div>
               </div>
@@ -74,8 +76,9 @@ export const MarketShowcase: React.FC = () => {
                <div className="relative group overflow-hidden rounded-2xl translate-y-12">
                   <img 
                   src="https://picsum.photos/seed/market-crowd/400/500" 
-                  alt="Busy morning auction at Oddanchatram" 
+                  alt="Daily vegetable auction at Gandhi Market Oddanchatram" 
                   className="object-cover h-64 w-full shadow-2xl shadow-green-900/20 transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white font-bold">Auction</div>
                </div>
@@ -83,8 +86,9 @@ export const MarketShowcase: React.FC = () => {
                <div className="relative group overflow-hidden rounded-2xl">
                 <img 
                   src="https://picsum.photos/seed/glory-lily/400/500" 
-                  alt="Gloriosa Superba (Glory Lily) - Oddanchatram's medicinal seed export" 
+                  alt="Gloriosa Superba medicinal lily cultivation in Oddanchatram region" 
                   className="object-cover h-64 w-full shadow-2xl shadow-green-900/20 transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white font-bold text-center p-2">Gloriosa Superba</div>
                </div>

@@ -9,7 +9,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={HERO_IMAGE} 
-          alt="Oddanchatram Town Landscape - Gateway to Western Ghats" 
+          alt="Oddanchatram Town Landscape at the Foothills of Palani Hills - Gateway to Kodaikanal" 
           className="w-full h-full object-cover scale-105 animate-float"
           loading="eager"
         />
@@ -25,16 +25,24 @@ export const Hero: React.FC = () => {
           Oddanchatram: The Vegetable City
         </h1>
         <p className="text-gray-200 text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 leading-relaxed">
-          Discover the agricultural heartbeat of Tamil Nadu, featuring the historic Gandhi Market, Scudder Hospital, and world-leading export hubs.
+          Discover the agricultural heartbeat of Tamil Nadu, featuring the historic Gandhi Vegetable Market, Scudder Memorial Hospital, and world-leading medicinal export hubs.
         </p>
         
-        <a 
-          href="#market"
-          aria-label="Explore Oddanchatram Market"
-          className="inline-block border border-white/30 bg-white/10 backdrop-blur-sm px-8 py-3 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full uppercase text-xs tracking-widest"
-        >
-          Explore the Town
-        </a>
+        <div className="flex flex-wrap justify-center gap-4">
+          <a 
+            href="#market"
+            aria-label="Explore the Gandhi Vegetable Market Oddanchatram"
+            className="inline-block border border-white/30 bg-white/10 backdrop-blur-sm px-8 py-3 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full uppercase text-xs tracking-widest"
+          >
+            Explore the Town
+          </a>
+          <a 
+            href="#attractions"
+            className="inline-block border border-white/30 bg-black/40 backdrop-blur-sm px-8 py-3 text-white hover:bg-odc-gold hover:text-black transition-all duration-300 rounded-full uppercase text-xs tracking-widest"
+          >
+            Local Sightseeing
+          </a>
+        </div>
       </div>
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 animate-bounce text-white/50">
