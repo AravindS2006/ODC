@@ -12,20 +12,21 @@ export const Attractions: React.FC = () => {
   };
 
   return (
-    <section id="attractions" className="py-24 bg-stone-950">
+    <section id="attractions" className="py-24 bg-stone-950" aria-labelledby="attractions-title">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div>
-            <h2 className="font-serif text-4xl md:text-5xl text-white mb-4">
-              Explore Oddanchatram
+            <h2 id="attractions-title" className="font-serif text-4xl md:text-5xl text-white mb-4">
+              Oddanchatram Sightseeing & Places
             </h2>
             <p className="text-gray-400 max-w-md">
-              From serene dams to spiritual temples, discover the hidden gems nestled in the Dindigul district.
+              From the serene Parappalaru Dam to historic Scudder Hospital, explore the landmarks of Dindigul district.
             </p>
           </div>
           <a 
             href="#map" 
             onClick={handleScrollToMap}
+            aria-label="View Oddanchatram Attractions on Map"
             className="hidden md:flex items-center gap-2 text-odc-gold hover:text-white transition-colors uppercase text-xs tracking-widest mt-6 md:mt-0 cursor-pointer"
           >
             View Map <ArrowRight size={16} />
@@ -37,11 +38,14 @@ export const Attractions: React.FC = () => {
             <div 
               key={item.id} 
               className="group relative h-[400px] overflow-hidden rounded-2xl cursor-pointer"
+              role="img"
+              aria-label={item.name}
             >
               <img 
                 src={item.imageUrl} 
-                alt={item.name} 
+                alt={`${item.name} - ${item.category} landmark in Oddanchatram`} 
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90"></div>
               

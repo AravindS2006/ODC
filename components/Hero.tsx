@@ -9,8 +9,9 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={HERO_IMAGE} 
-          alt="Oddanchatram Landscape" 
-          className="w-full h-full object-cover scale-105 animate-float" // Slight movement
+          alt="Oddanchatram Town Landscape - Gateway to Western Ghats" 
+          className="w-full h-full object-cover scale-105 animate-float"
+          loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-stone-900"></div>
       </div>
@@ -21,14 +22,15 @@ export const Hero: React.FC = () => {
           Dindigul District • Tamil Nadu
         </p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-bold mb-6 leading-tight drop-shadow-2xl">
-          The Vegetable City
+          Oddanchatram: The Vegetable City
         </h1>
         <p className="text-gray-200 text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 leading-relaxed">
-          Discover Oddanchatram, a vibrant blend of agricultural prosperity, scenic Western Ghats foothills, and rich cultural heritage.
+          Discover the agricultural heartbeat of Tamil Nadu, featuring the historic Gandhi Market, Scudder Hospital, and world-leading export hubs.
         </p>
         
         <a 
           href="#market"
+          aria-label="Explore Oddanchatram Market"
           className="inline-block border border-white/30 bg-white/10 backdrop-blur-sm px-8 py-3 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full uppercase text-xs tracking-widest"
         >
           Explore the Town
@@ -36,7 +38,7 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 animate-bounce text-white/50">
-        <ArrowDown size={24} />
+        <ArrowDown size={24} aria-hidden="true" />
       </div>
     </section>
   );
